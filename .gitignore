@@ -1,0 +1,10 @@
+.idea
+.pytest_cache
+.vscode
+node_modules
+npm-debug.log*
+package-lock.json
+poetry.lock
+yarn-debug.log*
+yarn-error.log*
+yarn.lock
