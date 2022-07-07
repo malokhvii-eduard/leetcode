@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "leetcode"
+version = "1.0.0"
+description = "Eduard Malokhvii's LeetCode problems' solutions."
+authors = ["Eduard Malokhvii <malokhvii.ee@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+black = "*"
+pytest = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+target-version = ["py37"]
+
+[tool.isort]
+py_version = 37
+profile = "black"
+lines_between_types = 1
+lines_after_imports = 2
