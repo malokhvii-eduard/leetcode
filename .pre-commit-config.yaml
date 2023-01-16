@@ -28,13 +28,13 @@ repos:
       - id: markdownlint
         name: check markdown
   - repo: https://github.com/adrienverge/yamllint.git
-    rev: v1.28.0
+    rev: v1.29.0
     hooks:
       - id: yamllint
         name: check yaml
         args: [--format, parsable, --strict]
   - repo: https://github.com/alessandrojcm/commitlint-pre-commit-hook
-    rev: v9.3.0
+    rev: v9.4.0
     hooks:
       - id: commitlint
         name: check commit
