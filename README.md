@@ -9,8 +9,8 @@
 [![License](https://img.shields.io/badge/license-MIT-3178C6?style=flat)](LICENSE)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)][github-pre-commit]
 ![Language](https://img.shields.io/badge/language-python-orange?style=flat)
-![Solved Problems](https://img.shields.io/badge/solved-42-3178C6?style=flat)
-![ Problems](https://img.shields.io/badge/easy-34-00d26a?style=flat)
+![Solved Problems](https://img.shields.io/badge/solved-43-3178C6?style=flat)
+![ Problems](https://img.shields.io/badge/easy-35-00d26a?style=flat)
 ![ Problems](https://img.shields.io/badge/medium-7-fcd53f?style=flat)
 ![ Problems](https://img.shields.io/badge/hard-1-f8312f?style=flat)
 [![Style Guide](https://img.shields.io/badge/code%20style-black-000?style=flat)][github-black]
@@ -46,6 +46,7 @@
 | 119  | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)                                | [Python](solutions/119.py)  | 💚   |
 | 125  | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)                                       | [Python](solutions/125.py)  | 💚   |
 | 136  | [Single Number](https://leetcode.com/problems/single-number/)                                             | [Python](solutions/136.py)  | 💚   |
+| 168  | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)                       | [Python](solutions/168.py)  | 💚   |
 | 189  | [Rotate Array](https://leetcode.com/problems/rotate-array/)                                               | [Python](solutions/189.py)  | 💛   |
 | 190  | [Reverse Bits](https://leetcode.com/problems/reverse-bits/)                                               | [Python](solutions/190.py)  | 💚   |
 | 191  | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)                                       | [Python](solutions/191.py)  | 💚   |
