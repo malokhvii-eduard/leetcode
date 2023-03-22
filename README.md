@@ -9,8 +9,8 @@
 [![License](https://img.shields.io/badge/license-MIT-3178C6?style=flat)](LICENSE)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)][github-pre-commit]
 ![Language](https://img.shields.io/badge/language-python-orange?style=flat)
-![Solved Problems](https://img.shields.io/badge/solved-44-3178C6?style=flat)
-![ Problems](https://img.shields.io/badge/easy-36-00d26a?style=flat)
+![Solved Problems](https://img.shields.io/badge/solved-45-3178C6?style=flat)
+![ Problems](https://img.shields.io/badge/easy-37-00d26a?style=flat)
 ![ Problems](https://img.shields.io/badge/medium-7-fcd53f?style=flat)
 ![ Problems](https://img.shields.io/badge/hard-1-f8312f?style=flat)
 [![Style Guide](https://img.shields.io/badge/code%20style-black-000?style=flat)][github-black]
@@ -73,6 +73,7 @@
 | 509  | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)                                       | [Python](solutions/509.py)  | 💚   |
 | 1195 | [Fizz Buzz Multithreaded](https://leetcode.com/problems/fizz-buzz-multithreaded/)                         | [Python](solutions/1195.py) | 💛   |
 | 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/)                     | [Python](solutions/1486.py) | 💚   |
+| 2194 | [Cells in a Range on an Excel Sheet](https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/)   | [Python](solutions/2194.py) | 💚   |
 <!-- markdownlint-enable MD013 -->
 
 ## 🛠️ Tech Stack
