@@ -9,10 +9,10 @@
 [![License](https://img.shields.io/badge/license-MIT-3178C6?style=flat)](LICENSE)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)][github-pre-commit]
 ![Language](https://img.shields.io/badge/language-python-orange?style=flat)
-![Solved Problems](https://img.shields.io/badge/solved-46-3178C6?style=flat)
+![Solved Problems](https://img.shields.io/badge/solved-47-3178C6?style=flat)
 ![ Problems](https://img.shields.io/badge/easy-37-00d26a?style=flat)
 ![ Problems](https://img.shields.io/badge/medium-8-fcd53f?style=flat)
-![ Problems](https://img.shields.io/badge/hard-1-f8312f?style=flat)
+![ Problems](https://img.shields.io/badge/hard-2-f8312f?style=flat)
 [![Style Guide](https://img.shields.io/badge/code%20style-black-000?style=flat)][github-black]
 [![markdownlint](https://img.shields.io/badge/linter-markdownlint-000?style=flat)][github-markdownlint]
 [![commitlint](https://img.shields.io/badge/linter-commitlint-F7B93E?style=flat)][github-commitlint]
@@ -60,6 +60,7 @@
 | 231  | [Power of Two](https://leetcode.com/problems/power-of-two/)                                               | [Python](solutions/231.py)  | 💚   |
 | 242  | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                                             | [Python](solutions/242.py)  | 💚   |
 | 268  | [Missing Number](https://leetcode.com/problems/missing-number/)                                           | [Python](solutions/268.py)  | 💚   |
+| 273  | [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/)                       | [Python](solutions/273.py)  | ❤️   |
 | 278  | [First Bad Version](https://leetcode.com/problems/first-bad-version/)                                     | [Python](solutions/278.py)  | 💚   |
 | 283  | [Move Zeroes](https://leetcode.com/problems/move-zeroes/)                                                 | [Python](solutions/283.py)  | 💚   |
 | 326  | [Power of Three](https://leetcode.com/problems/power-of-three/)                                           | [Python](solutions/326.py)  | 💚   |
