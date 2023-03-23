@@ -9,9 +9,9 @@
 [![License](https://img.shields.io/badge/license-MIT-3178C6?style=flat)](LICENSE)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)][github-pre-commit]
 ![Language](https://img.shields.io/badge/language-python-orange?style=flat)
-![Solved Problems](https://img.shields.io/badge/solved-45-3178C6?style=flat)
+![Solved Problems](https://img.shields.io/badge/solved-46-3178C6?style=flat)
 ![ Problems](https://img.shields.io/badge/easy-37-00d26a?style=flat)
-![ Problems](https://img.shields.io/badge/medium-7-fcd53f?style=flat)
+![ Problems](https://img.shields.io/badge/medium-8-fcd53f?style=flat)
 ![ Problems](https://img.shields.io/badge/hard-1-f8312f?style=flat)
 [![Style Guide](https://img.shields.io/badge/code%20style-black-000?style=flat)][github-black]
 [![markdownlint](https://img.shields.io/badge/linter-markdownlint-000?style=flat)][github-markdownlint]
@@ -32,6 +32,7 @@
 | 1    | [Two Sum](https://leetcode.com/problems/two-sum/)                                                         | [Python](solutions/1.py)    | 💚   |
 | 7    | [Reverse Integer](https://leetcode.com/problems/reverse-integer/)                                         | [Python](solutions/7.py)    | 💛   |
 | 9    | [Palindrome Number](https://leetcode.com/problems/palindrome-number/)                                     | [Python](solutions/9.py)    | 💚   |
+| 12   | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/)                                       | [Python](solutions/12.py)   | 💛   |
 | 13   | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)                                       | [Python](solutions/13.py)   | 💚   |
 | 14   | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)                             | [Python](solutions/14.py)   | 💚   |
 | 20   | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                                     | [Python](solutions/20.py)   | 💚   |
