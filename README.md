@@ -9,8 +9,8 @@
 [![License](https://img.shields.io/badge/license-MIT-3178C6?style=flat)](LICENSE)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)][github-pre-commit]
 ![Language](https://img.shields.io/badge/language-python-orange?style=flat)
-![Solved Problems](https://img.shields.io/badge/solved-48-3178C6?style=flat)
-![ Problems](https://img.shields.io/badge/easy-38-00d26a?style=flat)
+![Solved Problems](https://img.shields.io/badge/solved-49-3178C6?style=flat)
+![ Problems](https://img.shields.io/badge/easy-39-00d26a?style=flat)
 ![ Problems](https://img.shields.io/badge/medium-8-fcd53f?style=flat)
 ![ Problems](https://img.shields.io/badge/hard-2-f8312f?style=flat)
 [![Style Guide](https://img.shields.io/badge/code%20style-black-000?style=flat)][github-black]
@@ -56,6 +56,7 @@
 | 198  | [House Robber](https://leetcode.com/problems/house-robber/)                                               | [Python](solutions/198.py)  | 💛   |
 | 202  | [Happy Number](https://leetcode.com/problems/happy-number/)                                               | [Python](solutions/202.py)  | 💚   |
 | 204  | [Count Primes](https://leetcode.com/problems/count-primes/)                                               | [Python](solutions/204.py)  | 💛   |
+| 205  | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)                                   | [Python](solutions/205.py)  | 💚   |
 | 217  | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)                                   | [Python](solutions/217.py)  | 💚   |
 | 219  | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)                             | [Python](solutions/219.py)  | 💚   |
 | 231  | [Power of Two](https://leetcode.com/problems/power-of-two/)                                               | [Python](solutions/231.py)  | 💚   |
