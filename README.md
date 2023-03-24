@@ -9,8 +9,8 @@
 [![License](https://img.shields.io/badge/license-MIT-3178C6?style=flat)](LICENSE)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)][github-pre-commit]
 ![Language](https://img.shields.io/badge/language-python-orange?style=flat)
-![Solved Problems](https://img.shields.io/badge/solved-49-3178C6?style=flat)
-![ Problems](https://img.shields.io/badge/easy-39-00d26a?style=flat)
+![Solved Problems](https://img.shields.io/badge/solved-50-3178C6?style=flat)
+![ Problems](https://img.shields.io/badge/easy-40-00d26a?style=flat)
 ![ Problems](https://img.shields.io/badge/medium-8-fcd53f?style=flat)
 ![ Problems](https://img.shields.io/badge/hard-2-f8312f?style=flat)
 [![Style Guide](https://img.shields.io/badge/code%20style-black-000?style=flat)][github-black]
@@ -37,6 +37,7 @@
 | 14   | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)                             | [Python](solutions/14.py)   | 💚   |
 | 20   | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                                     | [Python](solutions/20.py)   | 💚   |
 | 26   | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Python](solutions/26.py)   | 💚   |
+| 27   | [Remove Element](https://leetcode.com/problems/remove-element/)                                           | [Python](solutions/27.py)   | 💚   |
 | 28   | [Implement strStr()](https://leetcode.com/problems/implement-strstr/)                                     | [Python](solutions/28.py)   | 💚   |
 | 36   | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)                                               | [Python](solutions/36.py)   | 💛   |
 | 37   | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)                                             | [Python](solutions/37.py)   | ❤️   |
