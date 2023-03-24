@@ -1,0 +1,28 @@
+[pydocstyle]
+ignore =
+# D100: Missing docstring in public module
+  D100,
+# D101: Missing docstring in public class
+  D101,
+# D102: Missing docstring in public method
+  D102,
+# D103: Missing docstring in public function
+  D103,
+# D104: Missing docstring in public package
+  D104,
+# D105: Missing docstring in magic method
+  D105,
+# D106: Missing docstring in public nested class
+  D106,
+# D107: Missing docstring in __init__
+  D107,
+# D203: 1 blank line required before class docstring
+  D203,
+# D203: 1 blank line required between summary line and description
+  D205,
+# D213: Multi-line docstring summary should start at the second line
+  D213,
+# D400: First line should end with a period
+  D400,
+# D415: First line should end with a period, question mark, or exclamation point
+  D415
