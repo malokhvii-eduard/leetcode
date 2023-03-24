@@ -14,7 +14,7 @@ from typing import List
 
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
-        """Finds the longest common prefix string amongst an array of strings."""
+        """Find the longest common prefix string amongst an array of strings."""
         counter = OrderedDict()
         for s in strs:
             for i, c in enumerate(s):

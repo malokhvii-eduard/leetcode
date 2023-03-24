@@ -18,8 +18,9 @@ from typing import List
 
 class Solution:
     def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
-        """Returns true if there are two distinct indices i and j in the array such
-        that nums[i] == nums[j] and abs(i - j) <= k."""
+        """Return true if there are two distinct indices i and j in the array such
+        that nums[i] == nums[j] and abs(i - j) <= k.
+        """
         indices = {}
         for i in range(len(nums)):
             num = nums[i]

@@ -10,9 +10,10 @@
 
 class Solution:
     def hammingDistance(self, x: int, y: int) -> int:
-        """`The Hamming distance <https://en.wikipedia.org/wiki/Hamming_distance>`_
-        between two integers is the number of positions at which the corresponding bits
-        are different."""
+        """`Calculate the Hamming distance <https://en.wikipedia.org/wiki/Hamming_distance>`_.
+        The distance between two integers is the number of positions at which the corresponding bits
+        are different.
+        """
         distance = 0
 
         # The ^ operators sets to 1 only the bits that are different

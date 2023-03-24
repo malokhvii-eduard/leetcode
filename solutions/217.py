@@ -17,8 +17,9 @@ from typing import List
 
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
-        """Returns true if any value appears at least twice in the array, and returns
-        false if every element is distinct."""
+        """Return true if any value appears at least twice in the array, and return
+        false if every element is distinct.
+        """
         counter = defaultdict(int)
         for num in nums:
             counter[num] += 1

@@ -16,7 +16,7 @@ from typing import List
 
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        """Returns indices of the two numbers such that they add up to target."""
+        """Return indices of the two numbers such that they add up to target."""
         for i, j in combinations(range(len(nums)), 2):
             if nums[i] + nums[j] == target:
                 return [i, j]

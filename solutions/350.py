@@ -19,7 +19,7 @@ from typing import List
 
 class Solution:
     def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
-        """Returns an intersection of two arrays."""
+        """Return an intersection of two arrays."""
         if len(nums1) >= len(nums2):
             longer, shorter = nums1, nums2
         else:

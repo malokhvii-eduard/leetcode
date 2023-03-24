@@ -16,8 +16,7 @@
 
 class Solution:
     def titleToNumber(self, columnTitle: str) -> int:
-        """Converts column title from an Excel sheet, to corresponding
-        number."""
+        """Convert column title from an Excel sheet, to corresponding number."""
         columnNumber = 0
         for letter in map(ord, columnTitle):
             columnNumber *= 26

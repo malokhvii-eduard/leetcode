@@ -12,5 +12,5 @@ from collections import Counter
 
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
-        """Returns true if t is an anagram of s, and false otherwise."""
+        """Return true if t is an anagram of s, and false otherwise."""
         return Counter(s) == Counter(t)

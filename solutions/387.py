@@ -15,7 +15,7 @@ from collections import Counter
 
 class Solution:
     def firstUniqChar(self, s: str) -> int:
-        """Returns index of first non-repeating character."""
+        """Return index of first non-repeating character."""
         counter = Counter(s)
         for i, c in enumerate(s):
             if counter[c] == 1:

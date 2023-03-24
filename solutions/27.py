@@ -18,7 +18,7 @@ from typing import List
 
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
-        """Removes all occurrences of val in nums in-place."""
+        """Remove all occurrences of val in nums in-place."""
         count = 0
         for i in range(len(nums)):
             if nums[i] == val:

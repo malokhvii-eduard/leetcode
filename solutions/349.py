@@ -12,7 +12,7 @@ from typing import List
 
 class Solution:
     def intersection(self, nums1: List[int], nums2: List[int]) -> List[int]:
-        """Returns an unique intersection of two arrays."""
+        """Return unique intersection of two arrays."""
         nums2, unique = frozenset(nums2), set()
 
         answer = []

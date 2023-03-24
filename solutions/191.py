@@ -13,7 +13,7 @@
 
 class Solution:
     def hammingWeight(self, n: int) -> int:
-        """Returns the number of '1' bits."""
+        """Return the number of '1' bits."""
         counter = 0
         while n:
             n &= n - 1

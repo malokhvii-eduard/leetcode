@@ -19,7 +19,7 @@ False
 
 class Solution:
     def isPalindrome(self, x: int) -> bool:
-        """Returns true if x is palindrome integer."""
+        """Return true if x is palindrome integer."""
         if x < 0:
             return False
 

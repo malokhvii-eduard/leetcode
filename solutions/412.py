@@ -16,7 +16,7 @@ from typing import Generator
 
 class Solution:
     def fizzBuzz(self, n: int) -> Generator[str, None, None]:
-        """Returns a Fizz Buzz string sequence."""
+        """Return a Fizz Buzz string sequence."""
         for x in range(1, n + 1):
             if x % 15 == 0:
                 yield "FizzBuzz"

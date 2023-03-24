@@ -16,7 +16,7 @@ from typing import List
 
 class Solution:
     def rotate(self, nums: List[int], k: int):
-        """Rotates the array to the right by k steps."""
+        """Rotate the array to the right by k steps."""
         k %= len(nums)
 
         self.reverse(nums, 0, len(nums))  # Reverse all numbers
@@ -24,7 +24,7 @@ class Solution:
         self.reverse(nums, k, len(nums))  # Reverse rotated numbers again
 
     def reverse(self, nums: List[int], start: int, end: int):
-        """Makes array reverse in-place."""
+        """Make array reverse in-place."""
         while start < end:
             nums[start], nums[end - 1] = nums[end - 1], nums[start]
             start += 1

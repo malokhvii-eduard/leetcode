@@ -10,7 +10,7 @@
 
 class Solution:
     def reverseBits(self, n: int) -> int:
-        """Reverses bits of an unsigned integer."""
+        """Reverse bits of an unsigned integer."""
         answer = 0
         for i in range(32):
             answer = answer << 1 | ((n >> i) & 1)

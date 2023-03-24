@@ -23,7 +23,7 @@ class FizzBuzz:
         self.condition = Condition()
 
     def fizz(self, printFizz: Callable[[], None]):
-        """Outputs 'fizz'."""
+        """Output 'fizz'."""
         for i in range(1, self.n + 1):
             with self.condition:
                 while self.task % 4 != 0:
@@ -36,7 +36,7 @@ class FizzBuzz:
                 self.condition.notify_all()
 
     def buzz(self, printBuzz: Callable[[], None]):
-        """Outputs 'buzz'"""
+        """Output 'buzz'"""
         for x in range(1, self.n + 1):
             with self.condition:
                 while self.task % 4 != 1:
@@ -49,7 +49,7 @@ class FizzBuzz:
                 self.condition.notify_all()
 
     def fizzbuzz(self, printFizzBuzz: Callable[[], None]):
-        """Outputs 'fizzbuzz"""
+        """Output 'fizzbuzz"""
         for x in range(1, self.n + 1):
             with self.condition:
                 while self.task % 4 != 2:
@@ -62,7 +62,7 @@ class FizzBuzz:
                 self.condition.notify_all()
 
     def number(self, printNumber: Callable[[int], None]):
-        """Outputs 'x', where x is an integer."""
+        """Output 'x', where x is an integer."""
         for x in range(1, self.n + 1):
             with self.condition:
                 while self.task % 4 != 3:

@@ -54,17 +54,18 @@ class Solution:
     BOARD_SIZE = 9
 
     def solveSudoku(self, board: List[List[str]]):
-        """Solves a Sudoku puzzle using `Knuth's Algorithm X
+        """Solve a Sudoku puzzle using `Knuth's Algorithm X
         <https://en.wikipedia.org/wiki/Knuth%27s_Algorithm_X>`_. See also an
-        `explanation of the algorithm <https://habr.com/ru/post/462411/>`_."""
+        `explanation of the algorithm <https://habr.com/ru/post/462411/>`_.
+        """
         n, b = self.BOARD_SIZE, self.BOX_SIZE
 
-        # ("rc", row, column): there is a number at the intersection of row and column
-        # ("rn", row, num): the row contains the number
-        # ("cn", column, num): the column contains the number
-        # ("bn", box, num): the box contains the number
+        # ("rc", row, column): there is a number at the intersection of row and column.
+        # ("rn", row, num): the row contains the number.
+        # ("cn", column, num): the column contains the number.
+        # ("bn", box, num): the box contains the number.
 
-        # Fills rows.
+        # Fill rows.
         y: Y = {}
         for row, column, num in product(range(n), range(n), range(1, n + 1)):
             box = (row // b) * b + (column // b)
@@ -75,7 +76,7 @@ class Solution:
                 ("bn", (box, num)),
             ]
 
-        # Fills columns
+        # Fill columns.
         x: X = {
             k: set()
             for k in (
@@ -89,28 +90,28 @@ class Solution:
             for j in row:
                 x[j].add(i)
 
-        # Enters those numbers that are already filled in
+        # Enter those numbers that are already filled in.
         for i, row in enumerate(board):
             for j, num in enumerate(row):
                 if num != ".":
-                    # Removes all incompatible elements from the matrix
+                    # Removes all incompatible elements from the matrix.
                     self.select(x, y, (i, j, int(num)))
 
-        # Finds cover (solution)
+        # Find cover (solution).
         for solution in self.solve(x, y, []):
             for row, column, num in solution:
                 board[row][column] = str(num) if num != 0 else "."
 
     def solve(self, x: X, y: Y, cover: List[Cell]) -> Generator[List[Cell], None, None]:
-        """Finds cover (solution) a Sudoku puzzle."""
+        """Find cover (solution) a Sudoku puzzle."""
         if not x:
             yield cover
         else:
-            # Looks for a column with the minimum number of elements
+            # Look for a column with the minimum number of elements.
             column = min(x, key=lambda c: len(x[c]))
             for cell in list(x[column]):
                 cover.append(cell)
-                # Removes overlapping subsets and elements contained in the subset
+                # Remove overlapping subsets and elements contained in the subset.
                 cells = self.select(x, y, cell)
 
                 # If a non-empty solution is found - done, exits.
@@ -120,23 +121,24 @@ class Solution:
                 cover.pop()
 
     def select(self, x: X, y: Y, cell: Cell) -> List[Set[Cell]]:
-        """Extracts all intersecting columns."""
+        """Extract all intersecting columns."""
         cells = []
         for j in y[cell]:
-            # Remove all intersecting rows from all remaining columns
+            # Remove all intersecting rows from all remaining columns.
             for i in x[j]:
                 for k in y[i]:
                     if k != j:
                         x[k].remove(i)
 
-            # Removes the current column from the table to the buffer
+            # Remove the current column from the table to the buffer.
             cells.append(x.pop(j))
 
         return cells
 
     def deselect(self, x: X, y: Y, cell: Cell, cells: List[Set[Cell]]):
-        """Deletes columns from the first intersection with cell to the last, we need
-        to restore in reverse order."""
+        """Delete columns from the first intersection with cell to the last, we need
+        to restore in reverse order.
+        """
         for j in reversed(y[cell]):
             x[j] = cells.pop()
             for i in x[j]:

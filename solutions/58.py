@@ -13,7 +13,7 @@
 
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:
-        """Returns the length of the last word in the string."""
+        """Return the length of the last word in the string."""
         s = s.rstrip()
         # fmt: off
         return len(s[s.rfind(" ") + 1:])

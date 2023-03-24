@@ -13,7 +13,7 @@ True
 
 class Solution:
     def isPowerOfFour(self, n: int) -> bool:
-        """Returns true if it is a power of four, and false otherwise."""
+        """Return true if it is a power of four, and false otherwise."""
         if n < 1:
             return False
 

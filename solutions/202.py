@@ -19,7 +19,7 @@ False
 
 class Solution:
     def isHappy(self, n: int) -> bool:
-        """Determines if a number n is happy."""
+        """Determine if a number n is happy."""
         squares_sum, duplicates = n, set()
         while squares_sum != 1 and squares_sum not in duplicates:
             duplicates.add(squares_sum)

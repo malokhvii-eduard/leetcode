@@ -16,7 +16,7 @@ from typing import List
 
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
-        """Removes the duplicates in-place."""
+        """Remove the duplicates in-place."""
         if len(nums) < 2:
             return len(nums)
 

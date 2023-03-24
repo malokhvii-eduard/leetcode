@@ -25,7 +25,7 @@
 
 class Solution:
     def reverse(self, x: int) -> int:
-        """Returns x with its digits reversed"""
+        """Return x with its digits reversed"""
         r = str(abs(x))
         r = r.strip()
         r = r[::-1]

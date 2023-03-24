@@ -32,7 +32,7 @@ class Solution:
     }
 
     def intToRoman(self, num: int) -> str:
-        """Converts integer to roman numeral."""
+        """Convert integer to roman numeral."""
         symbols = []
 
         for base in self.ROMAN.keys():

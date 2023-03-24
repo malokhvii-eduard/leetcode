@@ -75,13 +75,13 @@ class Solution:
     )
 
     def numberToWords(self, num: int) -> str:
-        """Converts a non-negative integer to its English words representation."""
+        """Convert a non-negative integer to its English words representation."""
         return " ".join(self.generate(num))
 
     def generate(
         self, num: int, _is_first_num: bool = True
     ) -> Generator[str, None, None]:
-        """Generates a sequence of English words that represent a non-negative integer."""
+        """Generate a sequence of English words that represent a non-negative integer."""
         if num == 0:
             if _is_first_num:
                 yield "Zero"

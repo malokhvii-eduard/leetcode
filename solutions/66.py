@@ -19,8 +19,9 @@ from typing import List
 
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
-        """Increments the large integer by one and return the resulting
-        array of digits."""
+        """Increment the large integer by one and return the resulting
+        array of digits.
+        """
         answer = deque()
 
         carry = 1

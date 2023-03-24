@@ -16,7 +16,7 @@ from operator import xor
 
 class Solution:
     def xorOperation(self, n: int, start: int) -> int:
-        """Returns the bitwise XOR of all elements of nums."""
+        """Return the bitwise XOR of all elements of nums."""
         if n == 1:
             return start
 

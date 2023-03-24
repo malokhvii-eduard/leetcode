@@ -35,7 +35,7 @@ class Solution:
     BOARD_SIZE = 9
 
     def isValidSudoku(self, board: List[List[str]]) -> bool:
-        """Determines if a Sudoku board is valid."""
+        """Determine if a Sudoku board is valid."""
         n, b = self.BOARD_SIZE, self.BOX_SIZE
 
         rows = [set() for _ in range(n)]
@@ -57,7 +57,7 @@ class Solution:
         return True
 
     def addCell(self, cells: Set[str], cell: str):
-        """Adds cell into cells without repetition, otherwise raises ValueError."""
+        """Add cell into cells without repetition, otherwise raise ValueError."""
         if cell in cells:
             raise ValueError("Duplicate number detected in cells!")
 

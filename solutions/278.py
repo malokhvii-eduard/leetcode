@@ -2,13 +2,13 @@
 
 
 def isBadVersion(version: int) -> bool:
-    """The isBadVersion API is already defined, this is a stub."""
+    """Detect a bad version. The isBadVersion API is already defined, this is a stub."""
     ...
 
 
 class Solution(object):
     def firstBadVersion(self, n: int) -> int:
-        """Detects first bad version. Uses binary search."""
+        """Detect first bad version. Uses binary search."""
         left, right = 1, n
         while left <= right:
             middle = left + (right - left) // 2

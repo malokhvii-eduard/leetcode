@@ -16,7 +16,7 @@
 
 class Solution:
     def fib(self, n: int) -> int:
-        """Calculates F(N), where F(0) = 0, F(1) = 1, F(n) = F(n - 1) + F(n - 2)."""
+        """Calculate F(N), where F(0) = 0, F(1) = 1, F(n) = F(n - 1) + F(n - 2)."""
         x, y = 0, 1
         for _ in range(n):
             x, y = y, x + y

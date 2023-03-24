@@ -16,7 +16,7 @@ False
 
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
-        """Determines if two strings are isomorphic."""
+        """Determine if two strings are isomorphic."""
         sm, tm = {}, {}
         for cs, ct in zip(s, t):
             if cs not in sm:

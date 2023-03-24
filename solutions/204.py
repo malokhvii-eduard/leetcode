@@ -13,8 +13,9 @@
 
 class Solution:
     def countPrimes(self, n: int) -> int:
-        """Returns number of prime numbers that are strictly less than n. Uses the
-        Sieve of Eratosthenes."""
+        """Return number of prime numbers that are strictly less than n. See the
+        Sieve of Eratosthenes.
+        """
         is_prime = [True] * n
 
         i = 2

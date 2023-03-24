@@ -23,7 +23,7 @@ class Solution:
     }
 
     def romanToInt(self, s: str) -> int:
-        """Converts roman numeral to an integer."""
+        """Convert roman numeral to an integer."""
         number = 0
         for i in range(len(s) - 1):
             current_symbol, next_symbol = self.ROMAN[s[i]], self.ROMAN[s[i + 1]]

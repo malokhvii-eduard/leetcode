@@ -16,8 +16,9 @@
 
 class Solution:
     def convertToTitle(self, columnNumber: int) -> str:
-        """Converts integer column number to corresponding column title as it
-        appears in an Excel sheet."""
+        """Convert integer column number to corresponding column title as it
+        appears in an Excel sheet.
+        """
         letters = []
         while columnNumber > 0:
             quotient, remainder = divmod(columnNumber - 1, 26)

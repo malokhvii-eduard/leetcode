@@ -13,7 +13,7 @@ True
 
 class Solution:
     def isPowerOfThree(self, n: int) -> bool:
-        """Returns true if it is a power of three, and false otherwise."""
+        """Return true if it is a power of three, and false otherwise."""
         if n < 1:
             return False
 

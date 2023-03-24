@@ -16,7 +16,7 @@ from typing import List
 
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
-        """Moves all 0's to the end."""
+        """Move all 0's to the end."""
         if len(nums) < 1:
             return
 

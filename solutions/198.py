@@ -14,6 +14,7 @@ from typing import List
 
 
 class Solution:
+    # TODO: Add docstring
     def rob(self, nums: List[int]) -> int:
         if len(nums) == 1:
             return nums[0]

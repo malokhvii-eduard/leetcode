@@ -16,7 +16,7 @@ from typing import List
 
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
-        """Finds single number."""
+        """Find single number."""
         counter = Counter(nums)
         for num in counter.keys():
             if counter[num] == 1:

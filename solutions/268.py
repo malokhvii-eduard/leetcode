@@ -16,7 +16,7 @@ from typing import List
 
 class Solution:
     def missingNumber(self, nums: List[int]) -> int:
-        """Returns the only number in the range that is missing from the array."""
+        """Return the only number in the range that is missing from the array."""
         n = len(nums)
         for actual, expected in zip_longest(sorted(nums), range(n + 1), fillvalue=-1):
             if actual != expected:

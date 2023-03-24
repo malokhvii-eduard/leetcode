@@ -15,7 +15,7 @@ from typing import List
 
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
-        """Returns the first numRows of Pascal's triangle."""
+        """Return the first numRows of Pascal's triangle."""
         if numRows == 1:
             return [[1]]
 

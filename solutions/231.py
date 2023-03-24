@@ -13,7 +13,7 @@ False
 
 class Solution:
     def isPowerOfTwo(self, n: int) -> bool:
-        """Returns true if it is a power of two, and false otherwise."""
+        """Return true if it is a power of two, and false otherwise."""
         if n < 1:
             return False
 

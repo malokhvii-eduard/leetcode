@@ -27,7 +27,7 @@ from typing import List
 
 class Solution:
     def rotate(self, matrix: List[List[int]]):
-        """Rotates the image by 90 degrees (clockwise)."""
+        """Rotate the image by 90 degrees (clockwise)."""
         n = len(matrix)
         w = n // 2 if n % 2 == 0 else n // 2 + 1
 

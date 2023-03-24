@@ -18,7 +18,7 @@ from typing import List
 
 class Solution:
     def getRow(self, rowIndex: int) -> List[int]:
-        """Returns the row of the Pascal's triangle."""
+        """Return the row of the Pascal's triangle."""
         n = rowIndex + 1
         if n == 1:
             return [1]

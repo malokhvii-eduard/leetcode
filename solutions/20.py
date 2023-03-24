@@ -38,7 +38,7 @@ class Solution:
     CLOSE_PARENTHESES = set(PARENTHESES.values())
 
     def isValid(self, s: str) -> bool:
-        """Determines if the input string with parentheses is valid."""
+        """Determine if the input string with parentheses is valid."""
         open_parentheses = []
         for parenthesis, is_open in self.onlyParentheses(s):
             if is_open:
@@ -54,7 +54,7 @@ class Solution:
         return not open_parentheses
 
     def onlyParentheses(self, s: str) -> Iterable[Tuple[str, bool]]:
-        """Returns only parentheses from string."""
+        """Return only parentheses from string."""
         for c in s:
             if c in self.OPEN_PARENTHESES:
                 yield c, True
