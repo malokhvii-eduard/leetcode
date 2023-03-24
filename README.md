@@ -8,6 +8,7 @@
 
 [![License](https://img.shields.io/badge/license-MIT-3178C6?style=flat)](LICENSE)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)][github-pre-commit]
+[![pre-commit.ci](https://results.pre-commit.ci/badge/github/malokhvii-eduard/leetcode/master.svg)][pre-commit.ci]
 ![Language](https://img.shields.io/badge/language-python-orange?style=flat)
 ![Solved Problems](https://img.shields.io/badge/solved-50-3178C6?style=flat)
 ![ Problems](https://img.shields.io/badge/easy-40-00d26a?style=flat)
@@ -115,4 +116,5 @@ for more information.
 <!-- Other links -->
 [editorconfig]: https://editorconfig.org
 [git-scm]: https://git-scm.com
+[pre-commit.ci]: https://results.pre-commit.ci/run/github/460832686/1679657165.dw92X6KgSrSmIH9bunUkLQ
 [shields]: https://shields.io
