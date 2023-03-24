@@ -9,8 +9,8 @@
 [![License](https://img.shields.io/badge/license-MIT-3178C6?style=flat)](LICENSE)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)][github-pre-commit]
 ![Language](https://img.shields.io/badge/language-python-orange?style=flat)
-![Solved Problems](https://img.shields.io/badge/solved-47-3178C6?style=flat)
-![ Problems](https://img.shields.io/badge/easy-37-00d26a?style=flat)
+![Solved Problems](https://img.shields.io/badge/solved-48-3178C6?style=flat)
+![ Problems](https://img.shields.io/badge/easy-38-00d26a?style=flat)
 ![ Problems](https://img.shields.io/badge/medium-8-fcd53f?style=flat)
 ![ Problems](https://img.shields.io/badge/hard-2-f8312f?style=flat)
 [![Style Guide](https://img.shields.io/badge/code%20style-black-000?style=flat)][github-black]
@@ -41,6 +41,7 @@
 | 36   | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)                                               | [Python](solutions/36.py)   | 💛   |
 | 37   | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)                                             | [Python](solutions/37.py)   | ❤️   |
 | 48   | [Rotate Image](https://leetcode.com/problems/rotate-image/)                                               | [Python](solutions/48.py)   | 💛   |
+| 58   | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/)                                 | [Python](solutions/58.py)   | 💚   |
 | 66   | [Plus One](https://leetcode.com/problems/plus-one/)                                                       | [Python](solutions/66.py)   | 💚   |
 | 67   | [Add Binary](https://leetcode.com/problems/add-binary/)                                                   | [Python](solutions/67.py)   | 💚   |
 | 118  | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)                                      | [Python](solutions/118.py)  | 💚   |
