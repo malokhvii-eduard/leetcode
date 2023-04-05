@@ -10,8 +10,8 @@
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)][github-pre-commit]
 [![pre-commit.ci](https://results.pre-commit.ci/badge/github/malokhvii-eduard/leetcode/master.svg)][pre-commit.ci]
 ![Language](https://img.shields.io/badge/language-python-orange?style=flat)
-![Solved Problems](https://img.shields.io/badge/solved-51-3178C6?style=flat)
-![ Problems](https://img.shields.io/badge/easy-41-00d26a?style=flat)
+![Solved Problems](https://img.shields.io/badge/solved-52-3178C6?style=flat)
+![ Problems](https://img.shields.io/badge/easy-42-00d26a?style=flat)
 ![ Problems](https://img.shields.io/badge/medium-8-fcd53f?style=flat)
 ![ Problems](https://img.shields.io/badge/hard-2-f8312f?style=flat)
 [![Style Guide](https://img.shields.io/badge/code%20style-black-000?style=flat)][github-black]
@@ -81,6 +81,7 @@
 | 1195 | [Fizz Buzz Multithreaded](https://leetcode.com/problems/fizz-buzz-multithreaded/)                         | [Python](solutions/1195.py) | 💛   |
 | 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/)                     | [Python](solutions/1486.py) | 💚   |
 | 2194 | [Cells in a Range on an Excel Sheet](https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/)   | [Python](solutions/2194.py) | 💚   |
+| 2404 | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element/)                   | [Python](solutions/2404.py) | 💚   |
 <!-- markdownlint-enable MD013 -->
 
 ## 🛠️ Tech Stack
