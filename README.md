@@ -10,8 +10,8 @@
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)][github-pre-commit]
 [![pre-commit.ci](https://results.pre-commit.ci/badge/github/malokhvii-eduard/leetcode/master.svg)][pre-commit.ci]
 ![Language](https://img.shields.io/badge/language-python-orange?style=flat)
-![Solved Problems](https://img.shields.io/badge/solved-53-3178C6?style=flat)
-![ Problems](https://img.shields.io/badge/easy-42-00d26a?style=flat)
+![Solved Problems](https://img.shields.io/badge/solved-54-3178C6?style=flat)
+![ Problems](https://img.shields.io/badge/easy-43-00d26a?style=flat)
 ![ Problems](https://img.shields.io/badge/medium-9-fcd53f?style=flat)
 ![ Problems](https://img.shields.io/badge/hard-2-f8312f?style=flat)
 [![Style Guide](https://img.shields.io/badge/code%20style-black-000?style=flat)][github-black]
@@ -73,6 +73,7 @@
 | 338  | [Counting Bits](https://leetcode.com/problems/counting-bits/)                                             | [Python](solutions/338.py)  | 💚   |
 | 342  | [Power of Four](https://leetcode.com/problems/power-of-four/)                                             | [Python](solutions/342.py)  | 💚   |
 | 344  | [Reverse String](https://leetcode.com/problems/reverse-string/)                                           | [Python](solutions/344.py)  | 💚   |
+| 345  | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)                   | [Python](solutions/345.py)  | 💚   |
 | 349  | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)                   | [Python](solutions/349.py)  | 💚   |
 | 350  | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)             | [Python](solutions/350.py)  | 💚   |
 | 387  | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)   | [Python](solutions/387.py)  | 💚   |
