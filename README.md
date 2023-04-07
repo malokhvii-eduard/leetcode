@@ -10,8 +10,8 @@
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)][github-pre-commit]
 [![pre-commit.ci](https://results.pre-commit.ci/badge/github/malokhvii-eduard/leetcode/master.svg)][pre-commit.ci]
 ![Language](https://img.shields.io/badge/language-python-orange?style=flat)
-![Solved Problems](https://img.shields.io/badge/solved-54-3178C6?style=flat)
-![ Problems](https://img.shields.io/badge/easy-43-00d26a?style=flat)
+![Solved Problems](https://img.shields.io/badge/solved-55-3178C6?style=flat)
+![ Problems](https://img.shields.io/badge/easy-44-00d26a?style=flat)
 ![ Problems](https://img.shields.io/badge/medium-9-fcd53f?style=flat)
 ![ Problems](https://img.shields.io/badge/hard-2-f8312f?style=flat)
 [![Style Guide](https://img.shields.io/badge/code%20style-black-000?style=flat)][github-black]
@@ -78,6 +78,7 @@
 | 350  | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)             | [Python](solutions/350.py)  | 💚   |
 | 387  | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)   | [Python](solutions/387.py)  | 💚   |
 | 412  | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)                                                     | [Python](solutions/412.py)  | 💚   |
+| 414  | [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)                               | [Python](solutions/414.py)  | 💚   |
 | 461  | [Hamming Distance](https://leetcode.com/problems/hamming-distance/)                                       | [Python](solutions/461.py)  | 💚   |
 | 509  | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)                                       | [Python](solutions/509.py)  | 💚   |
 | 1195 | [Fizz Buzz Multithreaded](https://leetcode.com/problems/fizz-buzz-multithreaded/)                         | [Python](solutions/1195.py) | 💛   |
