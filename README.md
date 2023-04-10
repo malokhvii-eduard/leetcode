@@ -10,8 +10,8 @@
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)][github-pre-commit]
 [![pre-commit.ci](https://results.pre-commit.ci/badge/github/malokhvii-eduard/leetcode/master.svg)][pre-commit.ci]
 ![Language](https://img.shields.io/badge/language-python-orange?style=flat)
-![Solved Problems](https://img.shields.io/badge/solved-57-3178C6?style=flat)
-![ Problems](https://img.shields.io/badge/easy-45-00d26a?style=flat)
+![Solved Problems](https://img.shields.io/badge/solved-58-3178C6?style=flat)
+![ Problems](https://img.shields.io/badge/easy-46-00d26a?style=flat)
 ![ Problems](https://img.shields.io/badge/medium-10-fcd53f?style=flat)
 ![ Problems](https://img.shields.io/badge/hard-2-f8312f?style=flat)
 [![Style Guide](https://img.shields.io/badge/code%20style-black-000?style=flat)][github-black]
@@ -82,6 +82,7 @@
 | 414  | [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)                               | [Python](solutions/414.py)  | 💚   |
 | 461  | [Hamming Distance](https://leetcode.com/problems/hamming-distance/)                                       | [Python](solutions/461.py)  | 💚   |
 | 509  | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)                                       | [Python](solutions/509.py)  | 💚   |
+| 1078 | [Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/)                       | [Python](solutions/1078.py) | 💚   |
 | 1128 | [Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/)     | [Python](solutions/1128.py) | 💚   |
 | 1195 | [Fizz Buzz Multithreaded](https://leetcode.com/problems/fizz-buzz-multithreaded/)                         | [Python](solutions/1195.py) | 💛   |
 | 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/)                     | [Python](solutions/1486.py) | 💚   |
