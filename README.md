@@ -10,9 +10,9 @@
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)][github-pre-commit]
 [![pre-commit.ci](https://results.pre-commit.ci/badge/github/malokhvii-eduard/leetcode/master.svg)][pre-commit.ci]
 ![Language](https://img.shields.io/badge/language-python-orange?style=flat)
-![Solved Problems](https://img.shields.io/badge/solved-56-3178C6?style=flat)
+![Solved Problems](https://img.shields.io/badge/solved-57-3178C6?style=flat)
 ![ Problems](https://img.shields.io/badge/easy-45-00d26a?style=flat)
-![ Problems](https://img.shields.io/badge/medium-9-fcd53f?style=flat)
+![ Problems](https://img.shields.io/badge/medium-10-fcd53f?style=flat)
 ![ Problems](https://img.shields.io/badge/hard-2-f8312f?style=flat)
 [![Style Guide](https://img.shields.io/badge/code%20style-black-000?style=flat)][github-black]
 [![markdownlint](https://img.shields.io/badge/linter-markdownlint-000?style=flat)][github-markdownlint]
@@ -60,6 +60,7 @@
 | 202  | [Happy Number](https://leetcode.com/problems/happy-number/)                                               | [Python](solutions/202.py)  | 💚   |
 | 204  | [Count Primes](https://leetcode.com/problems/count-primes/)                                               | [Python](solutions/204.py)  | 💛   |
 | 205  | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)                                   | [Python](solutions/205.py)  | 💚   |
+| 215  | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)         | [Python](solutions/215.py)  | 💛   |
 | 217  | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)                                   | [Python](solutions/217.py)  | 💚   |
 | 219  | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)                             | [Python](solutions/219.py)  | 💚   |
 | 229  | [Majority Element II](https://leetcode.com/problems/majority-element-ii/)                                 | [Python](solutions/229.py)  | 💛   |
