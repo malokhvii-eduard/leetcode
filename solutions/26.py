@@ -10,7 +10,6 @@
 5
 """
 
-
 from typing import List
 
 
