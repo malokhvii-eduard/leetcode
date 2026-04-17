@@ -28,6 +28,7 @@
 "❤️" means hard difficulty.)
 
 <!-- markdownlint-disable MD013 -->
+<!-- markdownlint-disable MD060 -->
 | #    | Title                                                                                                     | Solution                    | 💪   |
 | ---- | --------------------------------------------------------------------------------------------------------- | --------------------------- | --- |
 | 1    | [Two Sum](https://leetcode.com/problems/two-sum/)                                                         | [Python](solutions/1.py)    | 💚   |
