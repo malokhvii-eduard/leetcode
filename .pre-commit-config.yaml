@@ -28,21 +28,16 @@ repos:
     hooks:
       - id: pydocstyle
         name: check python docstrings
-  - repo: https://github.com/pycqa/flake8
-    rev: 7.3.0
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.4.4
     hooks:
-      - id: flake8
-        name: check python style and quality
-  - repo: https://github.com/psf/black
-    rev: 26.3.1
-    hooks:
-      - id: black
-        name: format python
-  - repo: https://github.com/pycqa/isort
-    rev: 8.0.1
-    hooks:
-      - id: isort
+      - id: ruff
         name: sort python imports
+        args: [--select, I, --fix]
+      - id: ruff-format
+        name: format python
+      - id: ruff
+        name: check python
   - repo: https://github.com/igorshubovych/markdownlint-cli
     rev: v0.48.0
     hooks:
