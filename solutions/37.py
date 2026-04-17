@@ -42,7 +42,6 @@
 from itertools import product
 from typing import Dict, Generator, List, Set, Tuple
 
-
 Cell = Tuple[int, int, int]
 Key = Tuple[str, Tuple[int, int]]
 Y = Dict[Cell, List[Key]]
