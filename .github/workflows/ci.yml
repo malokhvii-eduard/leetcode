@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v5
       - name: Use Python
         uses: actions/setup-python@v6
         with:
@@ -26,7 +26,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
       - name: Cache pip
-        uses: actions/cache@v6
+        uses: actions/cache@v5
         with:
           path: ~/.cache/pip
           key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
