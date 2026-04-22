@@ -23,11 +23,6 @@ repos:
       - id: python-no-eval
       - id: python-use-type-annotations
         name: check that python type annotations not comments
-  - repo: https://github.com/PyCQA/pydocstyle
-    rev: 6.3.0
-    hooks:
-      - id: pydocstyle
-        name: check python docstrings
   - repo: https://github.com/astral-sh/ruff-pre-commit
     rev: v0.4.4
     hooks:
