@@ -1,8 +1,0 @@
-[flake8]
-ignore =
-# E203: Whitespace before ':'
-  E203,
-# E501: Line too long (82 > 79 characters)
-  E501,
-# W503: Line break occurred before a binary operator
-  W503

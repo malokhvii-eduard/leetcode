@@ -21,6 +21,8 @@ jobs:
           python-version: ${{ env.PYTHON_VERSION }}
       - name: Run pre-commit
         uses: pre-commit/action@v3.0.1
+        with:
+          extra_args: --all-files --show-diff-on-failure
 
   test:
     name: 🧪 Test
@@ -29,18 +31,16 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
-      - name: Cache pip
-        uses: actions/cache@v5
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
       - name: Use Python
         uses: actions/setup-python@v6
         with:
           python-version: ${{ env.PYTHON_VERSION }}
-      - name: Install pytest
-        run: pip install -U pytest==7.1.2
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+          cache-dependency-glob: uv.lock
+      - name: Install dependencies
+        run: uv sync --frozen
       - name: Run tests
-        run: pytest --doctest-modules --no-header --no-summary
+        run: uv run pytest
