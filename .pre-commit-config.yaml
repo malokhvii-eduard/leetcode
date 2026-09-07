@@ -24,7 +24,7 @@ repos:
       - id: python-use-type-annotations
         name: check that python type annotations not comments
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.15.11
+    rev: v0.16.6
     hooks:
       - id: ruff
         name: sort python imports
@@ -34,7 +34,7 @@ repos:
       - id: ruff
         name: check python
   - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.48.0
+    rev: v0.49.1
     hooks:
       - id: markdownlint
         name: check markdown
@@ -45,7 +45,7 @@ repos:
         name: check yaml
         args: [--format, parsable, --strict]
   - repo: https://github.com/alessandrojcm/commitlint-pre-commit-hook
-    rev: v9.24.0
+    rev: v9.26.0
     hooks:
       - id: commitlint
         name: check commit
